@@ -1,0 +1,19 @@
+.overlay{
+background-color: white !important;
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+margin-bottom: 20px;
+padding:30px;
+border-radius:5px;
+}
+ .overlay img{
+    width:15%;
+ }
+ .listt{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url('../../imgs/watchlist.jpg');
+    height:70vh;
+    background-size: cover;
+
+ }
+ .movie-page{
+/* background-color: #171B22; */
+ }

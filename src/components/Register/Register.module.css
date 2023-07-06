@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Dosis:wght@400;500;600;700&family=Jost:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500&family=Poppins:wght@400;500;600&family=Raleway:wght@400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+.reg{
+width:50%;
+margin: auto;
+box-shadow:0 0 15px 5px rgba(0,0,0,0.08);
+/* border: 1px solid rgba(0, 0, 0,0.2); */
+margin-top:120px;
+overflow: hidden;
+padding:50px 0; 
+margin-bottom: 70px;
+border-radius: 7px;
+}
+
+@media  screen and (max-width:991px) {
+    .reg{
+        width:80%;
+    }
+}
+
+.signwith::after{
+content: "";
+position: absolute;
+width:40%;
+height:1px;
+background-color: rgba(0, 0, 0,0.2);
+top: 50%;
+left:-20px;
+}
+
+.signwith::before{
+    content: "";
+    position: absolute;
+    width:40%;
+    height:1px;
+    background-color: rgba(0, 0, 0,0.2);
+    top: 50%;
+    right:-20px;
+    }
+     
+    .signup{
+        background-color:#010F1C; 
+        border-color:#010F1C ;
+    }
+    .signup:hover{
+        background-color:#5783DB;
+        border-color:#5783DB;
+    }
+
+    .title{
+        font-family: 'Alkatra', cursive;
+        font-size:45px;
+    }
+
+    .links{
+    text-decoration: none;
+    color:#3b3b3b;
+    font-size: 17px;
+    }
+
+    .login{
+    color: #5783DB;
+    text-decoration: underline;
+    }
+
+    body {
+        font-family: 'Dosis', sans-serif;
+       
+    }
+
+    .facebook{
+     background-color: rgb(66,103,178);
+     color: white !important;
+     padding:7px 0;
+     width:350px;
+     margin: auto;
+     position: relative;
+    }
+
+   
+    .google{
+     margin-top: 40px;
+     border:1px solid rgba(0, 0, 0,0.3);
+     width:350px;
+     margin: auto;
+     margin-top:27px;
+     padding:7px 0;
+     padding-left:30px;
+    }
+
+    .span{
+        left: 20%;
+    }
+    @media  screen and (max-width:767px) {
+        .facebook{
+           width:280px;
+           }
+     
+       .span{
+        left:10%;
+       }
+          
+           .google{
+            width:280px
+           }
+    }

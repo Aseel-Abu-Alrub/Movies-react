@@ -1,0 +1,145 @@
+
+.moviee .movie__poster {
+    width:450px;
+    margin-left:-90px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+.reviews{
+width:50%;
+}
+.user{
+ display: inline-block;
+width:38px;
+margin-right:10px;
+height:38px;
+text-align: center;
+line-height:38px;
+font-weight: 700;
+font-size:17px;
+text-transform: uppercase;
+border-radius:50%;
+}
+.moviee .movie__detailRight {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content:space-between ;
+}
+
+.moviee .movie__detailRightTop > div{
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: .5rem;
+}
+.watch-btn{
+    display: inline-block;
+    margin-top:40px;
+    color: white;
+    text-transform: uppercase;
+    font-size:14px;
+    background-color: #ff0000;
+    padding:12px 40px;
+    border-radius: 7px;
+    }
+    
+    .watch-btn:hover{
+    color:white;
+    background-color:#b30606;
+    }
+.moviee .movie__name {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.moviee .movie__voteCount {
+    margin-left: 1rem;
+}
+
+.moviee .movie__genres {
+    margin: 1.25rem 0;
+}
+
+.moviee .movie__genre {
+    padding:4px 11px;
+    background-color:#3b3b3b;
+    border:1px solid white;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+
+.moviee .movie__detailRightBottom {
+    margin: 2rem 0;
+    flex: 0.8;
+}
+
+.moviee .synopsisText {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.moviee .synopsisText > div:last-of-type {
+    margin-left: auto;
+}
+
+.moviee .movie__links {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.movie__heading {
+    font-size: 2.2rem;
+}
+
+.movie__Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.movie__homeButton {
+    background-color:rgb(255, 0, 0);
+    
+}
+
+.movie__imdbButton {
+    background-color:#f3ce13;
+}
+
+.newTab {
+    margin-left: 1.4rem;
+}
+
+.movie__production {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+
+.movie__productionComapany {
+    width: 200px;
+    margin: 2rem;
+}
+
+.productionCompanyImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

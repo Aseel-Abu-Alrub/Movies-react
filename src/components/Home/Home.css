@@ -1,0 +1,51 @@
+.title{
+color: white;
+top:50%;
+transform: translateY(-50%);
+left:40px;
+
+/* height:50vh; */
+}
+.title p{
+    color:#DFD404;
+    font-size: 30px;
+    font-weight: 700;
+}
+.title h1{
+    font-size: 60px;
+    width:55%;
+    font-weight: 700;
+}
+
+
+span.pg{
+font-size:13px;
+font-weight:600;
+padding:3px 0;
+text-transform: uppercase;
+}
+
+span.drama{
+color: #f0f0f0;
+font-size: 19px;
+}
+.info i{
+    color: #DFD404;
+    font-size: 13px;
+}
+
+.watch{
+    padding: 20px;
+    border-color: #DFD404 !important;
+    border-width:2px !important;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+   
+}
+
+.watch:hover{
+    /* color: black;
+    background-color: #DFD404 ;
+     */
+}
